@@ -263,13 +263,21 @@
 }
 
 .lp-cite {
-  position: absolute;
-  top: 120px;
   color: white;
   font-size: xx-large;
   width: 100%;
   text-align: center;
 }
+.landing-page__container {
+   text-align: center;
+   background-color: #3B3B3B;
+   padding: 30px;
+   margin-bottom: 30px;
+ }
+ .my-photo {
+   width: 250px;
+   border-radius: 250px;
+ }
 cite {
   display: block;
   margin: 10px 20px;
@@ -280,4 +288,15 @@ cite {
   font-style: italic;
   border-radius: 3px;
   padding: 10px 10px;
+}
+.blog-link {
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+  background: white;
+  font-size: x-large
+
+  &:visited {
+       color: black;
+   }
 }

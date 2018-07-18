@@ -9,8 +9,11 @@
     {%- include header.html -%}
 
     <main class="page-content" style="padding-top: 0;" aria-label="Content">
-<img src="assets/road.jpg" style="object-fit: cover; height: 300px; width: 100%;" alt="">
-<h2 class="lp-cite">{{ site.description }}</h2>
+      <div class="landing-page__container">
+        <img src="assets/me.jpg" class="my-photo">
+        <h2 class="lp-cite">{{ site.description }}</h2>
+        <a href="/blog" class="blog-link">Blog</a>
+      </div>
       <div class="wrapper">
         <div class="home">
           {%- if page.title -%}
@@ -18,28 +21,6 @@
           {%- endif -%}
 
           {{ content }}
-
-          {%- if site.posts.size > 0 -%}
-            <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-            <ul class="post-list">
-              {%- for post in site.posts -%}
-              <li>
-                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                <span class="post-meta">{{ post.date | date: date_format }}</span>
-                <h3>
-                  <a class="post-link" href="{{ post.url | relative_url }}">
-                    {{ post.title | escape }}
-                  </a>
-                </h3>
-                {%- if site.show_excerpts -%}
-                  {{ post.excerpt }}
-                {%- endif -%}
-              </li>
-              {%- endfor -%}
-            </ul>
-
-            <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-          {%- endif -%}
 
         </div>
       </div>
