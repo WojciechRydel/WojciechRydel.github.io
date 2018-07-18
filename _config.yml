@@ -16,7 +16,7 @@
 title: Wojciech Rydel
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  To go fast, do it right!
+  To go fast, do things right!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rydel_wojciech
@@ -26,6 +26,10 @@ github_username:  WojciechRydel
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - disqus-for-jekyll
+
+disqus:
+  name: "wojciechrydel" # required
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

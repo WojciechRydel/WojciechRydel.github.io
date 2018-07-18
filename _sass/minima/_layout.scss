@@ -231,6 +231,11 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
+  img {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+  }
 
   h2 {
     @include relative-font-size(2);
@@ -264,4 +269,15 @@
   font-size: xx-large;
   width: 100%;
   text-align: center;
+}
+cite {
+  display: block;
+  margin: 10px 20px;
+  border-left: 10px solid #353333;
+  padding-left: 10px;
+  background: #696969;
+  color: white;
+  font-style: italic;
+  border-radius: 3px;
+  padding: 10px 10px;
 }
