@@ -259,10 +259,9 @@
 
 .lp-cite {
   position: absolute;
-  top: 200px;
+  top: 120px;
   color: white;
   font-size: xx-large;
-  max-width: calc(800px - (30px * 2));
-  min-width: calc(800px - (30px * 2));
+  width: 100%;
   text-align: center;
 }
