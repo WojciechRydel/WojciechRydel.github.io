@@ -29,7 +29,7 @@ plugins:
   - disqus-for-jekyll
 
 disqus:
-  name: "wojciechrydel" # required
+  shortname: "rydel-io" # required
 
 permalink: pretty
 
