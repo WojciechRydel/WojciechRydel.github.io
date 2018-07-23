@@ -31,6 +31,8 @@ plugins:
 disqus:
   shortname: "rydel-io" # required
 
+google_analytics: "UA-122760203-1"
+
 permalink: pretty
 
 # Exclude from processing.
