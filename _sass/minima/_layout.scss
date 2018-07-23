@@ -110,7 +110,7 @@
  */
 .site-footer {
   border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+  padding: 20px 0;
 }
 
 .footer-heading {
@@ -122,6 +122,13 @@
 .social-media-list {
   list-style: none;
   margin-left: 0;
+
+  & > li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  margin-bottom: 0;
 }
 
 .footer-col-wrapper {
@@ -129,6 +136,7 @@
   color: $grey-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
+  text-align: center;
 }
 
 .footer-col {
