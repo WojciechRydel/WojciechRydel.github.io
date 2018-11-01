@@ -2,6 +2,7 @@
 title: "Beginning of the journey"
 layout: post
 date: 2018-07-17 19:53:54 +0200
+excerpt: ""
 ---
 
 ## Why I am starting this blog?
@@ -23,6 +24,6 @@ For start you should consider some basic questions, such as:
 - What about changes which might be in the future - how write software, so additional feature would not require half a year to implement?
 - ...
 
-Of course I cannot call myself an expert in clean, efficent and maintable software, but I am deeply focused on those aspects, thus here I am going to share conepts, patterns and practices which are well understood by me. Here I will be also describe, and show on examples, all new things which I learn during my career. 
+Of course I cannot call myself an expert in clean, efficent and maintable software, but I am deeply focused on those aspects, thus here I am going to share conepts, patterns and practices which are well understood by me. Here I will be also describe, and show on examples, all new things which I learn during my career.
 
 Stay tuned!
