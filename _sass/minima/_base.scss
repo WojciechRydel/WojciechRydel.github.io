@@ -104,11 +104,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
-  text-decoration: none;
+  color: inherit;
+  text-decoration: underline;
 
   &:visited {
-    color: darken($brand-color, 15%);
+ //   color: darken($brand-color, 15%);
   }
 
   &:hover {
@@ -130,7 +130,7 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
+  color: $text-color;
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
@@ -253,3 +253,15 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+.twitter-share-button {
+     float: right;
+ }
+
+ .tag {
+     background: grey;
+     color: white;
+     padding: 5px;
+     border-radius: 3px;
+     margin: 5px;
+ }

@@ -10,9 +10,17 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
+        <a class="twitter-share-button" style="display: none"
+          href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&hashtags={{ page.tags | join: ',' }}">
+          Tweet
+        </a>
+
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
+      {% for tag in page.tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
